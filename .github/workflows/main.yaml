@@ -33,6 +33,8 @@ jobs:
       run: terraform version
     - name: which version aws-cli installed
       run: aws --version
+    - name: kubectl help command
+      run: kubectl --help
     - name: which version kubectl installed
       run: kubectl -version
 

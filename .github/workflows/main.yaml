@@ -20,7 +20,7 @@ jobs:
         echo test, and deploy your project.
         echo bye
     - name: which version java installed
-      run: java version
+      run: java -version
     - name: which version python installed
       run: python -v
     - name: which version maven installed

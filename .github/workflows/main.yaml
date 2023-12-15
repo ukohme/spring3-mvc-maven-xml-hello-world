@@ -35,6 +35,5 @@ jobs:
       run: aws --version
     - name: kubectl help command
       run: kubectl --help
-    - name: which version kubectl installed
-      run: kubectl version
+
 

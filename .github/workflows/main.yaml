@@ -12,28 +12,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        echo bye
-    - name: which version java installed
-      run: java -version
-    - name: which version python installed
-      run: python -v
-    - name: which version maven installed
-      run: mvn --version
-    - name: which version git installed
-      run: git --version
-    - name: which version docker installed
-      run: docker -v
-    - name: which version terraform installed
-      run: terraform version
-    - name: which version aws-cli installed
-      run: aws --version
-    - name: kubectl help command
-      run: kubectl --help
+    - name: Run a maven package
+      run: mvn clean package
 
 

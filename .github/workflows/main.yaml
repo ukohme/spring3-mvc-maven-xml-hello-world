@@ -34,5 +34,5 @@ jobs:
     - name: which version aws-cli installed
       run: aws --version
     - name: which version kubectl installed
-      run: kubectl --version
+      run: kubectl -version
 

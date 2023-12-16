@@ -42,21 +42,21 @@
   <div class="row">
 	<div class="col-md-4">
 		<h2>Heading</h2>
-		<p>GIT</p>
+		<p>GIT2</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>Heading</h2>
-		<p>MAVEN</p>
+		<p>MAVEN2</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>Heading</h2>
-		<p>TOMCAT</p>
+		<p>TOMCAT2</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
